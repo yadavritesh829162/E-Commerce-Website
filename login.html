@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <script src="https://kit.fontawesome.com/8b50f2e537.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="cont">
+        <section id="cont2">
+            <img src="./img/loginimg2.jpg" alt="" id="img">
+            <div id="left">
+                <form action="" id="singupform">
+                    <h2>Signup</h2>
+                    <label for="uName">Full Name:</label>
+                    <input type="text" placeholder="Enter Your Full name" id="uName">
+                    <span id="ename"></span>
+                    <label for="number">Number</label>
+                    <input type="number" placeholder="Enter Your Number" id="number">
+                    <span id="enum"></span>
+                    <label for="mail">Email</label>
+                    <input type="email" name="" id="mail" placeholder="Enter your Email" required>
+                    <label for="add">Address</label>
+                    <input type="text" id="add">
+                    <span id="eadd"></span>
+                    <label for="pass">Password</label>
+                    <input type="password" name="" id="pass" placeholder="Create Password">
+                    <span id="epass"></span>
+                    <label for="cpass"> Cornfrim Password</label>
+                    <input type="password" name="" id="cpass" placeholder="Confrim Password">
+                    <span id="ecpass"></span>
+                    <button id="ssubmit">Submit</button>
+            </form>
+            <!-- <div id="botm"> -->
+                <h1 >Already have a Account <a href="#right" id="olduser">Login</a>
+                <!-- </h1> -->
+            <!-- </div> -->
+            </div>
+            <div id="right">
+                <form action="./index.html" id="loginform">
+                <h2>Login</h2>
+                <label for="un">User Name</label>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="" id="un" placeholder="Number/Password">
+                <span id="eun"></span>
+                <label for="upass">Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" name="" id="upass" placeholder="Enter Password">
+                <Span id="eupass"></Span>
+                <button>Submit</button>
+            </form>
+            <h1>Do you want <a href="#left" id="logSign">Signup</a></h1>
+            </div>
+            
+        </section>
+    </section>
+    <script src="./login.js"></script>
+</body>
+</html>

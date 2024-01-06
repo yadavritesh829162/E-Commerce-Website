@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Bazar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/ablogo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8b50f2e537.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ===========nav======================== -->
+    <nav id="h">
+        <div id="left">
+            
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div id="middle">
+            <ul>
+                <li>Home</li>
+                <li><a href="#feature" style="text-decoration: none;color: black;">Shop</a></li>
+                <li id="cate">Categories<i class="fa-solid fa-angle-down"></i>
+                    <ul id="catemenu">
+                        <li><a href="#male">mens</a></li>
+                        <li><a href="#female">Womens</a></li>
+                        <li><a href="#elec">Electronic</a></li>
+                    </ul>
+                </li>
+                <li><a href="#f" style="text-decoration: none;color: black;">About us</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <button><a href="./login.html#left">Signup</a></button>
+            <button><a href="./login.html" id="login">Login</a></button>
+            <button id="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+            <button class="wistlist"><i class="fa-solid fa-heart"></i></button>
+        </div>
+
+        <div id="mobile">
+            <button id="bar"><i class="fa-solid fa-bars"></i></button>
+            <button id="nx"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        
+    </nav>
+    <!-- =========================wistlist=================== -->
+
+    <section id="wish">
+        <h3 id="x"><i class="fa-solid fa-xmark"></i></h3>
+        <h1>wishlist</h1>
+        <div id="wishitem">
+            
+    </div>
+    </section>
+    <!-- =====================cart======================= -->
+    <section id="cartlist">
+        <h3 id="cx"><i class="fa-solid fa-xmark"></i></h3>
+        <h1>Cart</h1>
+        <div id="co">
+            <div id="cartcont">
+                
+                
+            </div>
+        
+            <div id="bynow">
+                <div id="div">
+                <h2 id="heading">Cart total</h2>
+                <h3 id="itemselcted">Items Selcted : </h3>
+                <h3 id="spadd">Shiping Addres : </h3>
+                <p id="Addres"></p>
+                <select  id="pay" required>
+                    <option value="">Payment Way</option>
+                    <option value="">Cash on Delivery</option>
+                    <option value="">UPI</option>
+                    <option value="">Net Banking</option>
+                </select>
+                <h3 id="ctotal">Total : </h3>
+                <button id="buynow">Buy Now</button>
+                <button id="order">Confrim Order</button>
+            </div>
+                <div id="sucess">
+                    <h2 >Order Place Sucessfully</h2>
+                    <button id="homep">Continu Shoping</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================prduct veiw ======== -->
+    <section id="prodVeiw">
+        <h3 id="px"><i class="fa-solid fa-xmark"></i></h3>
+        <div id="prodcont">
+           
+        </div>
+    </section>
+
+    <!-- =================carosal================ -->
+    <section id="carosal1">
+        <div>
+            <img src="./img/diwalioffer.webp" alt="">
+        </div>
+    </section>
+    <section id="carosal2">
+        <img src="./img/slide1.jpg"id="carosalimg" alt="">
+        <div id="btn"> 
+            <h1 id="welcome">
+                Welcome <br> <p style="margin-left:0.1rem;">to</p>  Apna Bazar
+            </h1> 
+            <button id="rightbtn"><i class="fa-solid fa-angle-right fa-beat" ></i></button>
+            <button id="leftbtn"><i class="fa-solid fa-angle-left fa-beat" ></i></button>    
+        </div>
+        <!-- ===============faturepro================= -->
+</section>
+<section id="feature">
+    <div id="featureprod">
+        <h1>Feature product</h1>
+        <div class="row  featurerow" >
+           
+        </div>
+    </div>
+    <!-- ====================mens sect===================== -->
+</section>
+<section id="male">
+    <div id="shirt">
+        <h1>Shirts</h1>
+        <div class="row  shirtrow" >
+          
+        </div>
+    </div>
+    <div id="pant">
+        <h1>Pants</h1>
+        <div class="row  pantrow">
+
+        </div>
+    </div>
+    <div id="tshirt">
+        <h1>Tshirt</h1>
+        <div class="row  tshirtrow">
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================female==================== -->
+<section id="female">
+    <div id="femaletop">
+        <h1>Top Wear</h1>
+        <div class="row topwearrow">
+
+        </div>
+    </div>
+    <div id="toplahenga">
+        <h1>Lahenga</h1>
+        <div class="row lahengarow">
+
+        </div>
+    </div>
+</section>
+
+<!-- =====================brands============= -->
+<h1>BRANDS</h1>
+<section id="brands">
+    <div><a href=""><img src="./img/brand1.webp" alt=""></a></div>
+    <div><a href=""><img src="./img/brand6.webp" alt="" style="height: 18rem;"></a></div>
+    <div><a href=""><img src="./img/brand3.webp" alt=""></a></div>
+    <div><a href=""><img src="./img/brand4.webp" alt=""></a></div>
+    <div><a href=""><img src="./img/brand5.webp" alt=""></a></div>
+</section>
+
+<!-- ============================Electronic==================== -->
+<section id="elec">
+    <div id="earphone">
+        <h1>Earphone</h1>
+        <div class="row earphonerow">
+
+        </div>
+    </div>
+    <div id="phone">
+        <h1>Android Phone</h1>
+        <div class="row  phonerow">
+
+        </div>
+    </div>
+    <div id="laptop">
+        <h1>Windows Laptop</h1>
+        <div class="row  laptoprow">
+
+        </div>
+    </div>
+
+</section>
+
+<!-- ==============================SALE========================= -->
+<section id="sale">
+
+</section>
+
+<!-- ===============================footer==================== -->
+<footer id="f">
+    <div id="back">
+        <a href="#h"><button>Back To Top</button></a>
+    </div>
+    <div id="middSle">
+        <div>
+            <h3>Get to Know Us</h3>
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Carrer</a></li>
+                <li><a href="">Press Realse</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Connect With Us</h3>
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Make Money with Us</h3>
+            <ul>
+                <li><a href="">Sell on Amazon</a></li>
+                <li><a href="">Sell under Amazon Accelerator</a></li>
+                <li><a href="">Protect and Build Your Brand</a></li>
+                <li><a href="">Apna Global Selling</a></li>
+                <li><a href="">Become an Affiliate</a></li>
+                <li><a href="">Advertise Your Products</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Let Us Help You</h3>
+            <ul>
+                <li><a href="">COVID-19 and Apna</a></li>
+                <li><a href="">Your account</a></li>
+                <li><a href="">Return center</a></li>
+                <li><a href="">100% Purchase Protection</a></li>
+                <li><a href="">Amazon App Download</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div id="bottm">
+        <div id="leftfooter">
+            <img src="./img/logo.png" alt="">
+            <i class="fa-solid fa-globe"></i>
+            <select name="select" id="">
+                <option value="">English</option>
+                <option value="">Hindi</option>
+                <option value="">Marathi</option>
+            </select>
+        </div>
+        <div id="rightfooter">
+            <div>
+                <a href="">Conditions of Use & Sale</a>
+                <a href="">Privacy Notice</a>
+                <a href="">Interest-Based Ads</a>
+            </div>
+            <div id="a">
+                <a href="">© 1996-2023, ApnaBazar.com, Inc. or its affiliates</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="./index.js"></script>
+</body>
+</html>

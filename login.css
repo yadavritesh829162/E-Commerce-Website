@@ -1,0 +1,139 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+#cont
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+#cont2
+{
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    /* background-color: blueviolet; */
+    background-image: url(./img/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1rem;
+
+}
+#cont2 img
+{
+    position: absolute;
+    /* width: 40px; */
+    width: 50%;
+    height: 39.5rem;
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+    /* transition: 0.7s; */
+}
+#cont2 div
+{
+    width: 45%;
+    margin: auto;
+    /* margin-top: 0%; */
+    border-radius: 5px;
+    /* padding: .8rem; */
+    /* text-align: center; */
+}
+#cont2 div button
+{
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    color: white;
+    background-color: chocolate;
+}
+#cont2 div h2
+{
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: chartreuse;
+}
+#cont2 div input 
+{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+}
+#cont2 div input::placeholder
+{
+    padding-left: 1rem;
+    /* color: red; */
+}
+#cont2 label
+{
+    margin-left: 1.6rem;
+    margin-top: .5rem;
+}
+#cont2  span
+{
+    margin-left: 1.6rem;
+    display: block;
+    color: red;
+
+}
+#cont2 #right 
+{
+    margin-top: 10%;
+    position: relative;
+}
+#cont2 #right form 
+{
+    background-color:rgba(95, 158, 160, 0.434);
+}
+#cont2 #right .fa-user
+{
+    position: absolute;
+    top: 33%;
+    left: 4%;
+}
+#cont2 #right .fa-lock
+{
+    position: absolute;
+    top: 57%;
+    left: 4%;
+}
+#cont2 #right input
+{
+    padding-left: 2rem;
+}
+#left form
+{
+    background-color: rgba(222, 184, 135, 0.39);
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+#cont2 h1
+{
+    margin-top: 1rem;
+    padding-left: 6rem;
+    color: black;
+}
+#cont2 h1 a
+{
+    color: aquamarine;
+    text-decoration: none;
+}
